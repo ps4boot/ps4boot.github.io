@@ -1,6 +1,6 @@
 # PSFree version 1.5.0
 
-Lapse Kex ported to 9.00 - Still WIP
+Lapse Kex ported to 9.00 - Still WIP  / based on https://github.com/kmeps4/PSFree/tree/84e8ccc3fb2f10478da76e7955480732b9cf6cdb
 
 Very fast and reliable but can KP :P
 

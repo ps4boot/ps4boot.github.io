@@ -49,12 +49,20 @@ module\view.mjs
 ..\payloads\payloads\pl_exitidu.bin
 ..\payloads\payloads\pl_disableaslr.bin
 
-..\payloads\linux\960\ps4-linux-1gb.bin
-..\payloads\linux\960\ps4-linux-2gb.bin
-..\payloads\linux\960\ps4-linux-3gb.bin
-..\payloads\linux\960\ps4-linux-pro-1gb.bin
-..\payloads\linux\960\ps4-linux-pro-2gb.bin
-..\payloads\linux\960\ps4-linux-pro-3gb.bin
+..\payloads\linux\960\pl_Linux1GB_Phat.bin
+..\payloads\linux\960\pl_Linux1GB_Pro.bin
+..\payloads\linux\960\pl_Linux2GB_Phat.bin
+..\payloads\linux\960\pl_Linux2GB_Pro.bin
+..\payloads\linux\960\pl_Linux3GB_Phat.bin
+..\payloads\linux\960\pl_Linux3GB_Pro.bin
+..\payloads\linux\960\pl_Linux4GB_Phat.bin
+..\payloads\linux\960\pl_Linux4GB_Pro.bin
+..\payloads\linux\960\pl_Linux256MB_Phat.bin
+..\payloads\linux\960\pl_Linux256MB_Pro.bin
+..\payloads\linux\960\pl_Linux512MB_Phat.bin
+..\payloads\linux\960\pl_Linux512MB_Pro.bin
+..\payloads\linux\960\pl_Linux2560MB_Phat.bin
+..\payloads\linux\960\pl_Linux2560MB_Pro.bin
 
 NETWORK:
 *

@@ -38,39 +38,87 @@ function vtx() {
     callalert();
 }
 
-function linux() {
-    payloadFile = '../payloads/linux/960/ps4-linux-2gb.bin';
-    payloadTitle = 'Linux PS4 2GB';
+function linux1() {
+    payloadFile = '../payloads/linux/960/pl_Linux256MB_Phat.bin';
+    payloadTitle = 'Linux PS4 257mb';
     callalert();
 }
 
 function linux2() {
-    payloadFile = '../payloads/linux/960/ps4-linux-1gb.bin';
-    payloadTitle = 'Linux PS4 1GB';
+    payloadFile = '../payloads/linux/960/pl_Linux512MB_Phat.bin';
+    payloadTitle = 'Linux PS4 512mb';
     callalert();
 }
 
 function linux3() {
-    payloadFile = '../payloads/linux/960/ps4-linux-3gb.bin';
-    payloadTitle = 'Linux PS4 PRO 3GB';
+    payloadFile = '../payloads/linux/960/pl_Linux1GB_Phat.bin';
+    payloadTitle = 'Linux PS4 1GB';
     callalert();
 }
 
 function linux4() {
-    payloadFile = '../payloads/linux/960/ps4-linux-pro-1gb.bin';
-    payloadTitle = 'Linux PS4 PRO 1GB';
+    payloadFile = '../payloads/linux/960/pl_Linux2GB_Phat.bin';
+    payloadTitle = 'Linux PS4 2GB';
     callalert();
 }
 
 function linux5() {
-    payloadFile = '../payloads/linux/960/ps4-linux-pro-2gb.bin';
-    payloadTitle = 'Linux PS4 PRO 2GBs';
+    payloadFile = '../payloads/linux/960/pl_Linux3GB_Phat.bin';
+    payloadTitle = 'Linux PS4 3GBs';
     callalert();
 }
 
 function linux6() {
-    payloadFile = '../payloads/linux/960/ps4-linux-pro-3gb.bin';
-    payloadTitle = 'Linux PS4 PRO 3GB';
+    payloadFile = '../payloads/linux/960/pl_Linux4GB_Phat.bin';
+    payloadTitle = 'Linux PS4 4GB';
+    callalert();
+}
+
+function linux7() {
+    payloadFile = '../payloads/linux/960/pl_Linux256MB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 256mb';
+    callalert();
+}
+
+function linux8() {
+    payloadFile = '../payloads/linux/960/pl_Linux512MB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 512mb';
+    callalert();
+}
+
+function linux9() {
+    payloadFile = '../payloads/linux/960/pl_Linux1GB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 1GB';
+    callalert();
+}
+
+function linux10() {
+    payloadFile = '../payloads/linux/960/pl_Linux2GB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 2GB';
+    callalert();
+}
+
+function linux11() {
+    payloadFile = '../payloads/linux/960/pl_Linux3GB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 3GBs';
+    callalert();
+}
+
+function linux12() {
+    payloadFile = '../payloads/linux/960/pl_Linux4GB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 4GB';
+    callalert();
+}
+
+function linux13() {
+    payloadFile = '../payloads/linux/960/pl_Linux2560MB_Phat.bin';
+    payloadTitle = 'Linux PS4 2560MB';
+    callalert();
+}
+
+function linux14() {
+    payloadFile = '../payloads/linux/960/pl_Linux2560MB_Pro.bin';
+    payloadTitle = 'Linux PS4 PRO 2560MB';
     callalert();
 }
 

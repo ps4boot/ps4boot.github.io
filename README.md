@@ -2,6 +2,8 @@
 
 STILL IN WIP 
 
+Big Thanks to Leeful anyway all Hosts are "created" by leeful stuff(code)
+
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 
 ## 📌 Supported Firmware Versions

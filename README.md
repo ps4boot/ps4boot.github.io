@@ -24,3 +24,10 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 ---
 
 💡 Simply open the link for your firmware version in the PS4 browser to launch the exploit.
+
+---
+
+📌 Credits
+- Leeful
+- PRB
+- MrDude

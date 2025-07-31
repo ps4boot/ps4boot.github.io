@@ -1,4 +1,6 @@
-# 🎮 Host Exploits for the PlayStation 4
+# 🎮 Host Exploits Collection for the PlayStation 4
+
+STILL IN WIP 
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 

@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function onCheckboxChange3(isChecked) {
         if (isChecked) {
-            vtx();
+            vtx2();
         }
     }
 });

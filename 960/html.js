@@ -32,6 +32,12 @@ function goldhen() {
     callalert();
 }
 
+function vtx2() {
+    payloadFile = '../payloads/mirahen/960/ps4hen_lite_9.60.bin';
+    payloadTitle = 'Hen Beta 2.2.0';
+    callalert();
+}
+
 function vtx() {
     payloadFile = '../payloads/linux/960/ps4-linux-pro-2gb.bin';
     payloadTitle = 'Linux PS4 PRO 2GB';
@@ -209,6 +215,11 @@ document.addEventListener('DOMContentLoaded', () => {
         onCheckboxChange2(checkbox2.checked);
     }
 
+    if (savedState3 !== null && checkbox3) {
+        checkbox3.checked = savedState3 === 'true';
+        onCheckboxChange3(checkbox3.checked);
+    }
+
     // Save checkbox state and optionally trigger action
     if (checkbox) {
         checkbox.addEventListener('change', function () {
@@ -224,6 +235,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    if (checkbox3) {
+        checkbox3.addEventListener('change', function () {
+            localStorage.setItem('checkboxState3', checkbox3.checked);
+            onCheckboxChange3(checkbox3.checked);
+        });
+    }
+
     function onCheckboxChange(isChecked) {
         if (isChecked) {
             goldhen();
@@ -231,6 +249,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function onCheckboxChange2(isChecked) {
+        if (isChecked) {
+            vtx();
+        }
+    }
+
+    function onCheckboxChange3(isChecked) {
         if (isChecked) {
             vtx();
         }

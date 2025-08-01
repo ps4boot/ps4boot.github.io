@@ -14,7 +14,7 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 ### 🎮 Firmware 6.72
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
 - - (Note: Design by PRB modded by me)
-- 🔗 [ps4boot.github.io/672Phive/index.html](https://ps4boot.github.io/672Phive/index.html)
+- 🔗 [ps4boot.github.io/672Phive/index.html](https://ps4boot.github.io/672Phive/index.html) (WIP) 
 - - (Note: Design by Leeful modded by me)
 
 ### 🎮 Firmware 9.60
@@ -28,5 +28,6 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 
 📌 Credits
 - Leeful
+- Kameleon
 - PRB
 - MrDude

@@ -29,8 +29,18 @@ files\pl_FWspoof2.js
 ..\payloads\payloads\pl_Datenbank_Backup.bin
 ..\payloads\payloads\pl_Datenbank_Restore.bin
 
+..\payloads\payloads\672\pl_DumperGU.bin
+..\payloads\payloads\672\pl_DumperG.bin
+..\payloads\payloads\672\pl_DumperU.bin
+..\payloads\payloads\672\pl_DumperM.bin
+
+..\payloads\payloads\672\pl_ToDEX.bin
+..\payloads\payloads\672\pl_ToDEV.bin
+..\payloads\payloads\672\pl_ToKratos.bin
+..\payloads\payloads\672\pl_ToRetail.bin
+..\payloads\payloads\672\pl_WebRTE.bin
+
 ..\payloads\mirahen\pl_HEN.bin
-..\payloads\mirahen\672\pl_HENb.bin
 ..\payloads\mirahen\672\pl_mira.elf
 ..\payloads\mirahen\672\ps4hen_lite_6.72.bin
 

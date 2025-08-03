@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>505 Menu</title>
+<style>
+body{background-color:transparent;color:white;font-size:20px;text-align:center;margin:0;}
+
+button{width:388px;margin:5px 3px 5px 3px;padding:0px;border:2px solid #839ACA;text-align:left;color:white;outline:none;background:linear-gradient(180deg,rgba(74,91,134,1)0%,rgba(14,34,87,1)35%);}
+
+button:hover{cursor:pointer;background:linear-gradient(180deg,rgba(74,91,134,1)0%,rgba(4,9,23,1)35%);}
+
+.butIMG{display:inline-block;margin:-0px;border-right:3px solid #839ACA;outline:none;}
+
+.butIMG img{width:70px;height:70px;padding:5px 5px 2px 5px;}
+
+.butTXT{float:right;text-align:center;width:299px;font-size:28px;margin:22px 0 0 0;}
+
+.multiTXT{width:284px;height:80px;line-height:80px;text-align:center;font-size:28px;margin:0;outline:none;float:right;cursor:pointer;}
+
+.multiBUTTON{background:#D3D3D3;width:15px;height:78px;border:1px solid DimGray;line-height:78px;text-align:center;font-size:12px;color:DimGray;margin:0;outline:none;float:right;}
+
+.multiBUTTON:hover{background:#C8C8C8;color:black;}
+
+.multiOPTIONS{width:1px;height:1px;background:transparent;color:white;outline:none;border:0;font-size:28px;display:hidden;}
+
+</style>
+</head>
+<body>
+<br><br><br><br>
+
+<button>
+<div onclick="load_goldhen()" onmouseover="GHover();" onmouseout="top.defaultTXT()" class=butIMG><img src="/505/img/hen.png"></div>
+<div onclick="openGHverSelectionV2()" class=multiBUTTON tabindex=1 onmouseover="top.msgs.innerHTML='Select A GoldHEN Version To Use';" onmouseout="top.defaultTXT()">&#9660</div>
+<div onclick="load_goldhen()" onmouseover="GHover()" onmouseout="top.defaultTXT()" class=multiTXT tabindex=0 >GoldHEN <span id=GHnum></span></div>
+</button>
+
+<button onclick="load_binloader()" onmouseover="top.msgs.innerHTML='BinLoader [Port 9020] - By Specter'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/binloader.png"></div><div class=butTXT>BinLoader</div>
+</button>
+
+<button onclick="load_orbisTB()" onmouseover="top.msgs.innerHTML='Orbis Toolbox - 1167 Alpha / By OSM-Made'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/OrbisToolbox.png"></div><div class=butTXT>Orbis ToolBox</div>
+</button>
+
+<br>
+
+<button onclick="load_app2usb()" onmouseover="top.msgs.innerHTML='AppToUSB - By Stooged'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/app2usb.png"></div><div class=butTXT>AppToUSB</div>
+</button>
+
+<button onclick="load_dumpergu()"onmouseover="top.msgs.innerHTML='Game Dumper - By xVortex / Mod By Leeful'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/dumper.png"></div><div class=butTXT>Game Dumper</div>
+</button>
+
+<button onclick="load_DBbackup()" onmouseover="top.msgs.innerHTML='Database Backup - By Leeful'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/dbbackup.png"></div><div class=butTXT>Database Backup</div>
+</button>
+
+<br>
+
+<button onclick="load_DBrestore()" onmouseover="top.msgs.innerHTML='Database Restore - By Leeful'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/dbrestore.png"></div><div class=butTXT>Database Restore</div>
+</button>
+
+<button onclick="load_enabledex()" onmouseover="top.msgs.innerHTML='Enable DEX - By notzecoxao'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/DEXenable.png"></div><div class=butTXT>Enable DEX</div>
+</button>
+
+<button onclick="load_disabledex()" onmouseover="top.msgs.innerHTML='Disable DEX - By Leeful'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/DEXdisable.png"></div><div class=butTXT>Disable DEX</div>
+</button>
+
+<br>
+
+<button onclick="load_ps4debug()" onmouseover="top.msgs.innerHTML='PS4Debug v1.0.13 - By ctn'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/ps4debug.png"></div><div class=butTXT>PS4Debug</div>
+</button>
+
+<button onclick="load_webrte()" onmouseover="top.msgs.innerHTML='WebRTE (PS4 Trainer Payload) v1.0 - By PS4 Trainer'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/WebRTE.png"></div><div class=butTXT>WebRTE</div>
+</button>
+
+<button onclick="showTrainer()" onmouseover="top.msgs.innerHTML='Offline PS4 Trainer Menu - By Leeful'" onmouseout="top.defaultTXT()">
+<div class=butIMG><img src="/505/img/ps4trainer.png"></div><div class=butTXT>PS4 Trainer Menu</div>
+</button>
+
+<br>
+
+<select class="multiOPTIONS" id="multiGH" disabled="true" onChange="updateGHverSelection()">
+<option value="v2.4b5">v2.4b5 - 28 Mar 2023 *Latest beta*</option>
+<option value="v2.3">v2.3 - 25 Dec 2022 *Latest*</option>
+<option value="v2.2.5b8">v2.2.5b8 - 10 Dec 2022</option>
+<option value="v2.2.5b7">v2.2.5b7 - 27 Oct 2022</option>
+<option value="v2.2.5b2">v2.2.5b2 - 30 Sep 2022</option>
+<option value="v2.2.4">v2.2.4 - 07 Sep 2022</option>
+<option value="v2.3b2">v2.3b2 - 04 Jul 2022</option>
+<option value="v2.2.2">v2.2.2 - 24 Mar 2022</option>
+<option value="v2.2.1">v2.2.1 - 22 Mar 2022</option>
+<option value="v2.2">v2.2 - 10 Mar 2022 *Cheat Menu Introduced*</option>
+<option value="v2.1.2">v2.1.2 - 18 Feb 2022</option>
+<option value="v2.1.1">v2.1.1 - 10 Feb 2022</option>
+<option value="v2.1">v2.1 - 02 Feb 2022 *Added Config file And Klog Server(Port 3232)*</option>
+<option value="v2.0b2">v2.0b2 - 20 Dec 2021</option>
+<option value="v2.0b">v2.0b - 23 Nov 2021</option>
+<option value="v1.1">v1.1 - 09 Apr 2021</option>
+<option value="v1.0">v1.0 - 21 Mar 2021 *First Release Of GoldHEN*</option>
+</select>
+
+<script>
+//function openGHverSelection(){
+//document.getElementById('multiGH').disabled = false;
+//multiGH.dispatchEvent(new MouseEvent('mousedown',{bubbles:true}));
+//}
+
+function openGHverSelectionV2(){
+document.getElementById('multiGH').disabled = false;
+var evt = multiGH.ownerDocument.createEvent('MouseEvents');
+evt.initMouseEvent('mousedown',{bubbles:true});
+multiGH.dispatchEvent(evt);
+}
+
+function updateGHverSelection(){
+GHnum.innerHTML=multiGH.value;
+localStorage.GHVER = multiGH.value;
+document.getElementById('multiGH').disabled = true;
+}
+
+if (localStorage.GHVER!=null){multiGH.value = localStorage.GHVER;}
+GHnum.innerHTML=multiGH.value;
+
+function GHover(){top.msgs.innerHTML='GoldHEN '+multiGH.value+' - By SiSTRo';}
+
+function load_goldhen(){top.msgs.innerHTML="Loading GoldHEN "+multiGH.value;top.PLfile="/505/payloads/pl_GoldHEN"+multiGH.value+".bin";top.PLdone="GoldHEN "+multiGH.value+" Loaded";top.PayloadLoader();}
+function load_binloader(){top.msgs.innerHTML="Send Payload to Port 9020";}
+function load_orbisTB(){top.msgs.innerHTML="Loading Orbis ToolBox ...";top.PLfile="/505/payloads/pl_OrbisToolBox.bin";top.PLdone="Orbis ToolBox Loaded";top.PayloadLoader();}
+function load_app2usb(){top.msgs.innerHTML="Loading AppToUSB ...";top.PLfile="/505/payloads/pl_AppToUsb.bin";top.PLdone="AppToUSB Loaded";top.PayloadLoader();}
+function load_dumpergu(){top.msgs.innerHTML="Loading Game Dumper ...";top.PLfile="/505/payloads/pl_Dumper_GU.bin";top.PLdone="Game Dumper Loaded";top.PayloadLoader();}
+function load_DBbackup(){top.msgs.innerHTML="Loading Database Backup ...";top.PLfile="/505/payloads/pl_Database_Backup.bin";top.PLdone="Database Backup Loaded";top.PayloadLoader();}
+function load_DBrestore(){top.msgs.innerHTML="Loading Database Restore ...";top.PLfile="/505/payloads/pl_Database_Restore.bin";top.PLdone="Database Restore Loaded";top.PayloadLoader();}
+function load_enabledex(){top.msgs.innerHTML="Loading Enable DEX ...";top.PLfile="/505/payloads/pl_DEXenable.bin";top.PLdone="Enable DEX Loaded";top.PayloadLoader();}
+function load_disabledex(){top.msgs.innerHTML="Loading Disable DEX ...";top.PLfile="/505/payloads/pl_DEXdisable.bin";top.PLdone="Disable DEX Loaded";top.PayloadLoader();}
+function load_ps4debug(){top.msgs.innerHTML="Loading PS4Debug ...";top.PLfile="/505/payloads/pl_ps4debug.bin";top.PLdone="PS4Debug Loaded";top.PayloadLoader();}
+function load_webrte(){if(sessionStorage.kernelPatched=="yes"){sessionStorage.kernelPatched="no";location.reload();}top.msgs.innerHTML="Loading WebRTE ...";top.PLfile="/505/payloads/pl_webrte.bin";top.PLdone="WebRTE Loaded";top.PayloadLoader();}
+function showTrainer(){localStorage.ps4trn="yes";location.reload();}
+</script>	
+</body>
+</html> 

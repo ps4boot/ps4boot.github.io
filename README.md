@@ -13,7 +13,7 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 ### 🎮 Firmware 6.72
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
 
-- 🔗 [ps4boot.github.io/672Phive/index.html](https://ps4boot.github.io/672Phive/index.html) (WIP) 
+- 🔗 [ps4boot.github.io/672PRB/index.html](https://ps4boot.github.io/672PRB/index.html)
 
 
 ### 🎮 Firmware 9.60

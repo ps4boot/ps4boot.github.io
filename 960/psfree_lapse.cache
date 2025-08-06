@@ -29,7 +29,7 @@ module\view.mjs
 ..\img\linuxpro.jpg
 
 ..\payloads\goldhen\pl_GoldHENv2.4b18.3.bin
-..\payloads\mirahen\960\ps4hen_lite_9.60.bin
+..\payloads\mirahen\pl_HEN.bin
 ..\payloads\mirahen\pl_HEN2.2b.bin
 
 ..\payloads\payloads\pl_ftp.bin

@@ -33,7 +33,7 @@ function goldhen() {
 }
 
 function vtx2() {
-    payloadFile = '../payloads/mirahen/960/ps4hen_lite_9.60.bin';
+    payloadFile = '../payloads/mirahen/pl_HEN.bin';
     payloadTitle = 'Hen Beta 2.2.0';
     callalert();
 }

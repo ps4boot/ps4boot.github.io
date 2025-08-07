@@ -69,7 +69,8 @@ button:hover{cursor:pointer;background:linear-gradient(180deg,rgba(74,91,134,1)0
 </select>
 <select class="multiOPTIONS" id="multiGH2" disabled="true" onChange="updateGHverSelection2()">
 <option value="v2.3">v2.3 - 24 Dec 2022 *Latest stable*</option>
-<option value="v2.4b18.3">v2.4b18.3 - 20 Mar 2025 *Latest Beta*</option>
+<option value="v2.4b18.5">v2.4b18.5 - 04 Aug 2025 *Latest Beta*</option>
+<option value="v2.4b18.3">v2.4b18.3 - 20 Mar 2025</option>
 <option value="v2.4b17.3">v2.4b17.3 - 12 May 2024</option>
 <option value="v2.3">v2.3 - 24 Dec 2022</option>
 <option value="v2.2.5b7">v2.2.5b7 - 27 Oct 2023</option>
@@ -207,7 +208,7 @@ function load_linux(){top.msgs.innerHTML="Loading Linux "+multiGH.value;top.Load
 function load_binloader(){top.msgs.innerHTML="<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>Binloader</b> <span style='font-size: 14px;'>(Port 9021)</span>";top.LoadedMSG="Send Payload To <span style='color: gold;'>Port 9021</span>";function loadScript(){getScript("exp_loaderBL.js",function(){});}loadScript();}
 
 function load_binloader2(){top.msgs.innerHTML="<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>Binloader</b> <span style='font-size: 14px;'>(Port 9021)</span>";top.LoadedMSG="Send Payload To Port 9021";top.PLfile="../payloads/payloads/pl_Bin-Loader.bin";loadScript2();}
-function load_hen(){top.msgs.innerHTML = "<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>HEN</b> <span style='font-size: 14px;'>(Port 1337)</span>";top.PLfile = "../payloads/mirahen/pl_HEN2.2b.bin";loadScript2();}
+function load_hen(){top.msgs.innerHTML = "<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>HEN</b> <span style='font-size: 14px;'>(Port 1337)</span>";top.PLfile = "../payloads/mirahen/pl_HEN.bin";loadScript2();}
 function load_mira(){top.msgs.innerHTML="<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>Mira</b> <span style='font-size: 14px;'>(klog 9998)</span>";top.PLfile = "../payloads/mirahen/672/pl_mira.elf";top.LoadedMSG="Klog Port 9998";loadScript2();}
 function load_ftp(){top.msgs.innerHTML = "<span style='color: gold;'>Starting:</span> <b style='color: #00ffff;'>FTP-Server</b> <span style='font-size: 14px;'>(Port 1337)</span>";top.PLfile = "../payloads/payloads/pl_ftp.bin";top.LoadedMSG="Send Payload To Port 9021";loadScript2();}
 function load_payloads(){top.msgs.innerHTML="Loading "+multiGH3.value;top.LoadedMSG=""+multiGH3.value+" Loaded";top.PLfile="../payloads/payloads/pl_"+multiGH3.value+".bin";loadScript2();}
@@ -216,3 +217,4 @@ function load_fanloads(){top.msgs.innerHTML="Loading Threshold "+multiGH5.value;
 </script>
 </body>
 </html> 
+

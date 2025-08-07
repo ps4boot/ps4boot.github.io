@@ -60,7 +60,7 @@ font-size:18px;font-weight:bold;z-index:1;text-shadow:-1px 1px #646468;text-alig
 position:absolute;top:264px;left:75px;font-size:24px;color:white;text-shadow:-2px 2px #274478;
 }
 #InfoBox{
-position:absolute;top:400px;left:60px;display:inline-block;
+position:absolute;top:300px;left:60px;display:inline-block;
 text-shadow: -2px 2px #274478;
 width:900px;height:300px;color:white;
 }
@@ -204,3 +204,4 @@ position:fixed;left:0;right:3px;top:0;bottom:0;max-width:100%;max-height:100%;ma
 #navFix3{border:0px solid white;
 position:fixed;left:0;right:0;top:0;bottom:400px;max-width:100%;max-height:100%;margin:auto;overflow:hidden;width:1200px;height:1px;cursor:none;
 }
+

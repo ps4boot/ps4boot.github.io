@@ -23,7 +23,16 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 
 ### 🎮 Firmware 6.72 - 12.02 (PPPWN) Linux Payloads
 - 🔗 [ps4boot.github.io/pppwn/index.html](https://ps4boot.github.io/pppwn/index.html)
+
+<a href="https://github.com/user-attachments/assets/5e0fac0f-f285-430b-ad2a-d23fdd74a7cd">
+  🎥<img src="" width="600" height="350" alt="Preview" /> 🎞️
+</a>
+
 ---
+
+
+
+
 
 💡 Simply open the link for your firmware version in the PS4 browser to launch the exploit.
 

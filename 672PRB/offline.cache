@@ -57,6 +57,8 @@ exp_loaderPL.js
 ..\payloads\goldhen\pl_GoldHENv2.4b17.3.bin
 ..\payloads\goldhen\pl_GoldHENv2.4b18.3.bin
 ..\payloads\goldhen\pl_GoldHENv2.4b18.5.bin
+..\payloads\goldhen\pl_GoldHENv2.4b18.6.bin
+..\payloads\goldhen\goldhen.bin
 ..\payloads\linux\672\pl_Linux1GB_Pro.bin
 ..\payloads\linux\672\pl_Linux2GB_Pro.bin
 ..\payloads\linux\672\pl_Linux3GB_Pro.bin
@@ -107,4 +109,5 @@ exp_loaderPL.js
 ..\payloads\fan\80.bin
 ..\payloads\fan\81.bin
 ..\payloads\fan\82.bin
+
 

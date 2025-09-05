@@ -28,7 +28,7 @@ module\view.mjs
 ..\img\linux.jpg
 ..\img\linuxpro.jpg
 
-..\payloads\goldhen\pl_GoldHENv2.4b18.5.bin
+..\payloads\goldhen\goldhen.bin
 ..\payloads\mirahen\pl_HEN.bin
 
 ..\payloads\payloads\pl_ftp.bin

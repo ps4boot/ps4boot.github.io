@@ -1,4 +1,4 @@
-# ![PS4](https://img.shields.io/badge/-PS4-003791?style=flat&logo=PlayStation)  My Private used HOSTs for the PlayStation 4
+# ![PS4](https://img.shields.io/badge/-PS4-003791?style=flat&logo=PlayStation) PlayStation 4 Hosts FW 5.05-12.02
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 

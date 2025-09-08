@@ -2,6 +2,12 @@
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 
+## Run Local with Linux
+    git clone https://github.com/ps4boot/ps4boot.github.io
+    cd ps4boot.github.io
+    sudo python -m http.server 80
+
+
 ## 📌 Supported Firmware Versions
 
 ### 🎮 Firmware 5.05 - 12.02 ("PPPWN" Payloads for GoldHEN) Linux Payloads

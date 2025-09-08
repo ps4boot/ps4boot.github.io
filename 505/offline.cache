@@ -1,7 +1,8 @@
 CACHE MANIFEST 
 # Linux Loaders 
-# 09/02/2020-20:31:24.04 
+# 09/02/2020-20:31:24.04
 
+..\index.html
 index.html
 files\exploit.css
 files\exploit.html
@@ -9,30 +10,33 @@ files\exploit.js
 files\exploit2.css
 files\FanControl.html
 files\FanControlLoader.html
-files\goldhen.bin
 files\Icons.ttf
 files\Info.html
-files\Mira.bin
-files\FTP.bin
-files\PS4ren.bin
-files\UpdatesDisable.bin
-files\Linuxgentoo.bin
-files\Linuxgentoo419.bin
-files\Linuxpsxita.bin
-files\Linuxinternal3G.bin
-files\Linuxusb.bin
 files\style.css
 files\style2.css
-files\img\00.png
-files\img\00b.png
-files\img\01.png
-files\img\01b.png
-files\img\BG.jpg
-files\img\BG2.jpg
-files\img\FanControl.svg
-files\img\hen.svg
-files\img\linux.svg
-files\img\PopUp.png
-files\img\ftp.svg
-files\img\SubBG.jpg
-files\img\SubBG2.jpg
+
+..\payloads\goldhen\goldhen.bin
+
+..\payloads\payloads\505\Mira.bin
+..\payloads\payloads\505\FTP.bin
+..\payloads\payloads\505\PS4ren.bin
+..\payloads\payloads\505\UpdatesDisable.bin
+..\payloads\payloads\505\Linuxgentoo.bin
+..\payloads\payloads\505\Linuxgentoo419.bin
+..\payloads\payloads\505\Linuxpsxita.bin
+..\payloads\payloads\505\Linuxinternal3G.bin
+..\payloads\payloads\505\Linuxusb.bin
+
+..\img\00.png
+..\img\00b.png
+..\img\01.png
+..\img\01b.png
+..\img\BG.jpg
+..\img\BG2.jpg
+..\img\FanControl.svg
+..\img\hen.svg
+..\img\linux.svg
+..\img\PopUp.png
+..\img\ftp.svg
+..\img\SubBG.jpg
+..\img\SubBG2.jpg

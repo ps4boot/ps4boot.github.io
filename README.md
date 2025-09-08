@@ -1,7 +1,4 @@
-# ![PS4](https://img.shields.io/badge/-PS4-003791?style=flat&logo=PlayStation)  Host Exploits Collection for the PlayStation 4
-
-STILL IN WIP ... the goal  all hosts use the same payloads .  
-
+# ![PS4](https://img.shields.io/badge/-PS4-003791?style=flat&logo=PlayStation)  My Private used HOSTs for the PlayStation 4
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 

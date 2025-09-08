@@ -4,18 +4,20 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 
 ## 📌 Supported Firmware Versions
 
-### 🎮 Firmware 5.05
-- 🔗 [ps4boot.github.io/505/index.html](https://ps4boot.github.io/505/index.html)
-
-### 🎮 Firmware 6.72
-- 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
-
-### 🎮 Firmware 9.60
-- 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html)
-
-### 🎮 Firmware 5.05 - 12.02 (PPPWN) Linux Payloads
+### 🎮 Firmware 5.05 - 12.02 ("PPPWN" Payloads for GoldHEN) Linux Payloads
 - 🔗 [ps4boot.github.io/pppwn/index.html](https://ps4boot.github.io/pppwn/index.html)
 
+### 🎮 Firmware 5.05 (Webkit Exploit)
+- 🔗 [ps4boot.github.io/505/index.html](https://ps4boot.github.io/505/index.html)
+
+### 🎮 Firmware 6.72 (Webkit Exploit)
+- 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
+
+### 🎮 Firmware 9.60 (Webkit Exploit)
+- 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html)
+
+### 🎮 Firmware 11.00 (Exploit with OKAge)
+- 🔗 [https://github.com/ps4boot/ps4-laps3webc0re](https://github.com/ps4boot/ps4-laps3webc0re)
 
 ---
 

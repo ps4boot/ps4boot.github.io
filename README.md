@@ -10,13 +10,8 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 ### 🎮 Firmware 5.05
 - 🔗 [ps4boot.github.io/505/index.html](https://ps4boot.github.io/505/index.html)
 
-- 🔗 [ps4boot.github.io/505PRB/index.html](https://ps4boot.github.io/505PRB/index.html)
-
 ### 🎮 Firmware 6.72
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
-
-- 🔗 [ps4boot.github.io/672PRB/index.html](https://ps4boot.github.io/672PRB/index.html)
-
 
 ### 🎮 Firmware 9.60
 - 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html)

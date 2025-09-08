@@ -12,6 +12,10 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
     sudo python -m http.server 80
 
 
+💡 Simply open the link for your firmware version in the PS4 browser to launch the exploit 
+or just open https://ps4boot.github.io  automatic firmware detect and choose the right Website. 
+
+
 ## 📌 Supported Firmware Versions
 
 ### 🎮 Firmware 5.05 - 12.02 ("PPPWN" Payloads for GoldHEN) Linux Payloads
@@ -34,8 +38,6 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 
 
 
-
-💡 Simply open the link for your firmware version in the PS4 browser to launch the exploit.
 
 ---
 

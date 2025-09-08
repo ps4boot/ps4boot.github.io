@@ -27,24 +27,22 @@ font-feature-settings:"tnum";
     const match = navigator.userAgent.match(/PlayStation 4[\/ ]([\d.]+)/);
     const UA = match ? match[1] : null;
 
-    const supportedVersions = ["5.05", "5.07", "6.72", "9.00", "9.60", "10.00", "10.02", "10.50", "11.00", "12.00", "12.02"];
+    const supportedVersions = ["5.05", "5.07", "6.72", "9.00", "9.50", "9.51", "9.60", "10.00", "10.01", "10.50", "10.70", "10.71", "11.00", "11.52", "12.00", "12.02"];
 
     if (!UA || !supportedVersions.includes(UA)) {
       alert("Your PS4 Firmware Version Is Not Supported!\n\nOnly Firmware Versions 5.05, 6.72, 9.00, 9.60, 10.00, 10.02, 10.50, 11.00, 12.00 and 12.02 are supported.");
 
     } else {
-
       if (["5.05", "5.07"].includes(UA)) window.location.replace("505/index.html");
       else if (UA === "6.72") window.location.replace("672/index.html");
       else if (UA === "9.00") window.location.replace("pppwn/index.html");
-      else if (UA === "9.03") window.location.replace("pppwn/index.html");
-      else if (UA === "9.50" || UA === "9.51") window.location.replace("pppwn/index.html");
+      else if (UA === "9.50" || UA === "9.51") window.location.replace("pppwn/index.html");            
       else if (UA === "9.60") window.location.replace("960/index.html");
-      else if (UA === "10.00" || UA === "10.02") window.location.replace("pppwn/index.html");
-      else if (UA === "10.50" || UA === "10.71") window.location.replace("pppwn/index.html");
+      else if (UA === "10.00" || UA === "10.01") window.location.replace("pppwn/index.html");
+      else if (UA === "10.50") window.location.replace("pppwn/index.html");
+      else if (UA === "10.70" || UA === "10.71") window.location.replace("pppwn/index.html");            
       else if (UA === "11.00") window.location.replace("pppwn/index.html");
-      else if (UA === "11.02") window.location.replace("pppwn/index.html");
-      else if (UA === "11.50" || UA === "11.52") window.location.replace("pppwn/index.html");
+      else if (UA === "11.50" || UA === "11.52") window.location.replace("pppwn/index.html");      
       else if (UA === "12.00" || UA === "12.02") window.location.replace("pppwn/index.html");
     }
   </script>
@@ -53,4 +51,5 @@ font-feature-settings:"tnum";
   <p>Please wait …</p>
 </body>
 </html>
+
 

@@ -13,7 +13,7 @@ A collection of web-based exploits for various PlayStation 4 firmware versions.
 ### 🎮 Firmware 9.60
 - 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html)
 
-### 🎮 Firmware 6.72 - 12.02 (PPPWN) Linux Payloads
+### 🎮 Firmware 5.05 - 12.02 (PPPWN) Linux Payloads
 - 🔗 [ps4boot.github.io/pppwn/index.html](https://ps4boot.github.io/pppwn/index.html)
 
 

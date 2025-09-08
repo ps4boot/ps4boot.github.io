@@ -2,6 +2,10 @@
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 
+## Run Local with Windows
+    Download the Repo https://github.com/ps4boot/ps4boot.github.io/archive/refs/heads/main.zip
+    Run Exploit Host Server v1.2.exe
+
 ## Run Local with Linux
     git clone https://github.com/ps4boot/ps4boot.github.io
     cd ps4boot.github.io

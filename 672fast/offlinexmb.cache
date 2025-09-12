@@ -1,0 +1,13 @@
+CACHE MANIFEST 
+# v0.0.4 Self-Host 
+
+index.html
+goldhen.js
+goldhen1.js
+expl.js
+exploit.js
+rop.js
+syscalls.js
+jb.js
+binloader.js
+dupdate.js

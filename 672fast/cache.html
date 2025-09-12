@@ -1,0 +1,36 @@
+<html manifest="offlinexmb.cache">
+<head>
+<title></title>
+<link rel="shortcut icon" href="favicon.ico"></link>
+<style>
+body{background-image:url("img/BG.jpg");
+color:white;font-size:20px;text-align:center;margin:0;}
+.msgs{background-color:#062778;height:40px;border:2px solid #839ACA;font-size:28px;margin:0;padding:5px 0 5px 0;}
+.bottopmsg{display:block;position:absolute;bottom:0px;height:43px;width:1530px;font-size:26px;padding:5px 0 1px 0;}
+button{width:410px;margin:5px 3px 5px 3px;padding:0px;border:2px solid #839ACA;text-align:left;color:white;outline:none;background:linear-gradient(180deg,rgba(74,91,134,1)0%,rgba(14,34,87,1)35%);}
+button:hover{cursor:pointer;background:linear-gradient(180deg,rgba(74,91,134,1)0%,rgba(4,9,23,1)35%);}
+.butIMG{display:inline-block;margin:-0px;border-right:3px solid #839ACA;outline:none;cursor:pointer;}
+.butIMG img{width:70px;height:70px;padding:5px 5px 2px 5px;cursor:pointer;}
+.butTXT{float:right;text-align:center;width:299px;font-size:28px;margin:22px 0 0 0;cursor:pointer;}
+.multiTXT{width:284px;height:80px;line-height:80px;text-align:center;font-size:28px;margin:0;outline:none;float:right;cursor:pointer;}
+.multiBUTTON{background:transparent;width:35px;height:78px;border:1px solid DimGray;line-height:78px;text-align:center;font-size:12px;color:white;margin:0;outline:none;float:right;}
+.multiBUTTON:hover{background:transparent;color:red;}
+.multiOPTIONS{width:1px;height:1px;background:transparent;color:white;outline:none;border:0;font-size:28px;display:hidden;}
+    .fw-button {
+      display: none;
+      margin: 10px 0;
+    }</style>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));msgs.innerHTML="Installing Offline Cache ... " + Percent + "%"};
+function DisplayCacheProgress(){
+setTimeout(function(){msgs.innerHTML="Cache Installed Successfully";},100);
+setTimeout(function(){location.reload();},300);
+}
+window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+</head>
+<body style=overflow:hidden>
+<div id=msgs class=info style='-webkit-font-feature-settings:"tnum";font-feature-settings:"tnum";'></div>
+</body>
+</html>

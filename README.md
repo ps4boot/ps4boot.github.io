@@ -19,19 +19,20 @@ or just open https://ps4boot.github.io  automatic firmware detect and choose the
 ## 📌 Supported Firmware Versions
 
 ### 🎮 Firmware 5.05 - 12.02 ("PPPWN" Payloads for GoldHEN) Linux Payloads
-- 🔗 [ps4boot.github.io/pppwn/index.html](https://ps4boot.github.io/pppwn/index.html)
+- 🔗 [ps4boot.github.io/pppwn/index.html](https://ps4boot.github.io/pppwn/index.html) (by leeful / kameleon)
 
 ### 🎮 Firmware 5.05 (Webkit Exploit)
-- 🔗 [ps4boot.github.io/505/index.html](https://ps4boot.github.io/505/index.html)
+- 🔗 [ps4boot.github.io/505/index.html](https://ps4boot.github.io/505/index.html) (by leeful)
 
 ### 🎮 Firmware 6.72 (Webkit Exploit)
-- 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
+- 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html) (by leeful)
+- 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672fast/index.html) (by viggen66)
 
 ### 🎮 Firmware 9.60 (Webkit Exploit)
-- 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html)
+- 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html) (by mrdude)
 
 ### 🎮 Firmware 11.00 (Exploit with OKAge)
-- 🔗 [https://github.com/ps4boot/ps4-laps3webc0re](https://github.com/ps4boot/ps4-laps3webc0re)
+- 🔗 [https://github.com/ps4boot/ps4-laps3webc0re](https://github.com/ps4boot/ps4-laps3webc0re) 
 
 ---
 

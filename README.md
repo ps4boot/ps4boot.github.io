@@ -26,8 +26,10 @@ or just open https://ps4boot.github.io  automatic firmware detect and choose the
 
 ### 🎮 Firmware 6.72 (Webkit Exploit)
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html) (by leeful)
+
 - 🔗 [ps4boot.github.io/672fast/index.html](https://ps4boot.github.io/672fast/index.html) (by viggen66)
 - 🔗 [ps4boot.github.io/672gh/index.html](https://ps4boot.github.io/672gh/index.html)
+ (Note: use the 672fast and 672gh with User Guide) 
 
 ### 🎮 Firmware 9.60 (Webkit Exploit)
 - 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html) (by mrdude)

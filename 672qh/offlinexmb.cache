@@ -1,0 +1,11 @@
+CACHE MANIFEST 
+# v0.0.4 Self-Host 
+
+index.html
+goldhen.js
+expl.js
+exploit.js
+rop.js
+syscalls.js
+jb.js
+hen.png

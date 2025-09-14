@@ -26,10 +26,8 @@ or just open https://ps4boot.github.io  automatic firmware detect and choose the
 
 ### 🎮 Firmware 6.72 (Webkit Exploit)
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html) (by leeful)
-
-- 🔗 [ps4boot.github.io/tests/672fast/index.html](https://ps4boot.github.io/tests/672fastv1/index.html) (by viggen66) (Note: only use in User Guide)
-- 🔗 [ps4boot.github.io/tests/672fasv2/index.html](https://ps4boot.github.io/tests/672fastv2/index.html)
- (Note: only use in User Guide) 
+### 🎮 Firmware 6.72 (Webkit ONLY GoldHEN loading)
+- 🔗 [ps4boot.github.io/672qh/index.html](https://ps4boot.github.io/672qh/index.html) (by viggen66 / me  stability ? :D )
 
 ### 🎮 Firmware 9.60 (Webkit Exploit)
 - 🔗 [ps4boot.github.io/960/index.html](https://ps4boot.github.io/960/index.html) (by mrdude)

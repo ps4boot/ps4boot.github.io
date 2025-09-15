@@ -1,44 +1,39 @@
 <html manifest="offlinexmb.cache">
 <head>
 <meta charset="UTF-8" />
-<title>PS4 6.72 Exploit Menu</title>
+<title>PS4 6.72 QuickHEN</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
-  body {
+body {
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #000;
-    color: white;
-  }
-
-  .loader {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: black;
+}
+.loader {
     width: 300px;
     height: 300px;
     animation: fadeOut 1s ease forwards;
     animation-delay: 4222s;
-  }
-
-  .loader img {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.loader img {
     width: 100%;
     height: auto;
     display: block;
     animation: glitter 1s infinite linear;
   }
-
-  /* Glitzer-Effekt */
   @keyframes glitter {
-    0%   { filter: brightness(1) drop-shadow(0 0 5px gold); }
-    25%  { filter: brightness(1.4) drop-shadow(0 0 15px yellow); }
-    50%  { filter: brightness(1) drop-shadow(0 0 5px gold); }
-    75%  { filter: brightness(1.4) drop-shadow(0 0 20px orange); }
-    100% { filter: brightness(1) drop-shadow(0 0 5px gold); }
+    0%   { filter: brightness(1) drop-shadow(0 0 5px white); }
+    50%  { filter: brightness(1) drop-shadow(0 0 522px gold); }
+    75%  { filter: brightness(1.4) drop-shadow(0 0 20px black); }
+    100% { filter: brightness(1) drop-shadow(0 0 5px black); }
   }
-
-  /* Nach 3 Sekunden langsam ausblenden */
   @keyframes fadeOut {
     to { opacity: 0; visibility: hidden; }
   }
@@ -62,7 +57,7 @@ window.applicationCache.onerror=function(){jailbreak();p.write8(0, 0);};
 <script>
     let bigArray = null;
     function allocate() {
-      bigArray = new Array(10_000_000).fill(42);
+      bigArray = new Array(1_400_000).fill(42);
       console.log("Array allocated:", bigArray.length);
     }
 
@@ -88,14 +83,12 @@ async function gold() {
   }
 }
 </script>
-
 <script src="./rop.js" defer></script>
 <script src="./syscalls.js" defer></script>
 <script src="./expl.js" defer></script>
 <script src="./jb.js" defer></script>
 <script src="./exploit.js" defer></script>
 <script src="./goldhen.js" defer></script> 
-
 <script>
 window.addEventListener('load',function(){setTimeout(function(){if(typeof gold==='function'){gold();}},1400);});
 </script>

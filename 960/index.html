@@ -10,6 +10,13 @@
  </style>
 </head>
 <body>
+<script>
+    let bigArray = null;
+    function allocate() {
+      bigArray = new Array(1_400_000).fill(42);
+      console.log("Array allocated:", bigArray.length);
+    }
+  </script>
     <div class="navbar">
         <a href="javascript:showPopup();" id="aboutBtn">
             About

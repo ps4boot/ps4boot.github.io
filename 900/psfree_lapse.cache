@@ -49,20 +49,15 @@ module\view.mjs
 ..\payloads\payloads\pl_exitidu.bin
 ..\payloads\payloads\pl_disableaslr.bin
 
-..\payloads\linux\960\pl_Linux1GB_Phat.bin
-..\payloads\linux\960\pl_Linux1GB_Pro.bin
-..\payloads\linux\960\pl_Linux2GB_Phat.bin
-..\payloads\linux\960\pl_Linux2GB_Pro.bin
-..\payloads\linux\960\pl_Linux3GB_Phat.bin
-..\payloads\linux\960\pl_Linux3GB_Pro.bin
-..\payloads\linux\960\pl_Linux4GB_Phat.bin
-..\payloads\linux\960\pl_Linux4GB_Pro.bin
-..\payloads\linux\960\pl_Linux256MB_Phat.bin
-..\payloads\linux\960\pl_Linux256MB_Pro.bin
-..\payloads\linux\960\pl_Linux512MB_Phat.bin
-..\payloads\linux\960\pl_Linux512MB_Pro.bin
-..\payloads\linux\960\pl_Linux2560MB_Phat.bin
-..\payloads\linux\960\pl_Linux2560MB_Pro.bin
+..\payloads\linux\900\pl_Linux1GB_Phat.bin
+..\payloads\linux\900\pl_Linux1GB_Pro.bin
+..\payloads\linux\900\pl_Linux2GB_Phat.bin
+..\payloads\linux\900\pl_Linux2GB_Pro.bin
+..\payloads\linux\900\pl_Linux3GB_Phat.bin
+..\payloads\linux\900\pl_Linux3GB_Pro.bin
+..\payloads\linux\900\pl_Linux4GB_Phat.bin
+..\payloads\linux\900\pl_Linux4GB_Pro.bin
+
 
 NETWORK:
 *

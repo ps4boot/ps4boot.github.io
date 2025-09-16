@@ -46,8 +46,13 @@ or just open https://ps4boot.github.io  automatic firmware detect and choose the
 
 ---
 
-📌 Credits
+📌 Credits for the Host
 - Leeful
 - Kameleon
 - PRB
 - MrDude
+- viggen
+
+📌 Credits for the exploit
+
+- Who know all the names? .. so i just say thank you.

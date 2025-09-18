@@ -2,10 +2,8 @@
 
 A collection of web-based exploits for various PlayStation 4 firmware versions.
 
-Just open the URL: ps4boot.github.io in your PS4 Browser
-
 💡 Simply open the link for your firmware version in the PS4 browser to launch the exploit 
-or just open https://ps4boot.github.io  automatic firmware detect and choose the right Website. 
+or just open   https://ps4boot.github.io   automatic firmware detect and choose the right Website. 
 
 
 ## 📌 Supported Firmware Versions
@@ -19,7 +17,7 @@ or just open https://ps4boot.github.io  automatic firmware detect and choose the
 ### 🎮 Firmware 6.72 (Webkit Exploit)
 - 🔗 [ps4boot.github.io/672/index.html](https://ps4boot.github.io/672/index.html)
 
-### 🎮 Firmware 6.72 (Webkit ONLY GoldHEN loading)
+### 🎮 Firmware 6.72 (Webkit Exploit loads only GoldHEN for User Guide)
 - 🔗 [ps4boot.github.io/672qh/index.html](https://ps4boot.github.io/672qh/index.html)
 
 ### 🎮 Firmware 9.00 (Webkit Exploit)

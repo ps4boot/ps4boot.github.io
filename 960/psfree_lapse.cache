@@ -27,6 +27,7 @@ module\view.mjs
 ..\img\gold.jpg
 ..\img\linux.jpg
 ..\img\linuxpro.jpg
+..\img\vtx.jpg
 
 ..\payloads\goldhen\goldhen.bin
 ..\payloads\mirahen\pl_HEN.bin
